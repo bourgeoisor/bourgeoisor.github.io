@@ -1,0 +1,274 @@
+html {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #01579b;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+}
+
+section {
+  margin: 0px 0px 0px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+p a {
+  color: #d50000;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #a31018;
+}
+
+h1, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #2F92D5;
+}
+
+h4 {
+  margin-top: 30px !important;
+}
+
+
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  background-color: #01579b;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
+}
+
+#cloud-box {
+  overflow: hidden;
+}
+
+#resume {
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+#header {
+  height: calc(100vh - 260px);
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+#intro {
+  font-size: 1.2rem;
+}
+
+#intro a {
+  color: #d50000;
+}
+
+#intro a:hover {
+  color: #a31018;
+}
+
+#contact-me a {
+  margin-bottom: 40px;
+}
+
+a.blue-link {
+  color: #80d8ff;
+  font-weight: bold;
+}
+
+a.blue-link:hover {
+  color: #ffffff;
+}
+
+
+
+#chevron {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 120px;
+}
+
+.chevron-icon {
+  display: inline-block;
+  border-style: solid;
+	border-width: 0.35em 0.35em 0 0;
+  width: 1.5em;
+	height: 1.5em;
+	left: 0.15em;
+  top: 0.15em;
+	position: relative;
+  vertical-align: top;
+	transform: rotate(135deg);
+  color: #F5F5F5;
+
+  animation-name: chevron-animation;
+	animation-duration: 3000ms;
+  transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes chevron-animation {
+	0% { transform: rotate(135deg) scale(1); }
+	30% { transform: rotate(135deg) scale(1); }
+	40% { transform: rotate(135deg) scale(1.3); }
+	50% { transform: rotate(135deg) scale(1); }
+	60% { transform: rotate(135deg) scale(1); }
+	70% { transform: rotate(135deg) scale(1.2); }
+	80% { transform: rotate(135deg) scale(1); }
+	100% { transform: rotate(135deg) scale(1); }
+}
+
+
+
+.page-footer {
+  background-color: #0277bd !important;
+  bottom: 0;
+  position: relative;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#buttons {
+  margin-bottom: 10px;
+}
+
+.clouds {
+  width: auto;
+  display: block;
+  margin-left: calc(-1920px + 100vw);
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header-name {
+  margin-top: 50px !important;
+  margin-bottom: 10px !important;
+}
+
+.divider {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #969696;
+}
+
+.btn {
+  background-color: #b9121b;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-left: 5px;
+}
+
+.btn:hover {
+  background-color: #a31018;
+}
+
+.face {
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+
+
+@media (max-width: 992px) {
+  .logo-box {
+    text-align: left;
+  }
+}
+
+@media (min-width: 993px) {
+  .logo-box {
+    text-align: right;
+  }
+}
+
+.logo {
+  max-width: 225px;
+  max-height: 50px;
+  height: auto;
+}
+
+
+
+@media (max-width: 700px) {
+  #chevron {
+    display: none;
+  }
+  .col.right-align {
+    text-align: left;
+  }
+  .clouds {
+    margin-left: calc(-1700px + 100vw);
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    text-align: left;
+  }
+  #resume h1 {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+    word-break: keep-all;
+  }
+  #buttons {
+    display: none;
+  }
+  #resume .row {
+    border-bottom: 1px solid #d7d7d7;
+  }
+  #resume .row.no-bottom-margin {
+    border-bottom: 0px;
+  }
+}
+
+@media (max-height: 400px) {
+  #header {
+    height: calc(100vh - 100px);
+  }
+  .clouds {
+    margin-left: -200px;
+    margin-top: -170px;
+  }
+}
+
+@media (min-width: 700px) {
+  .logo {
+    margin-top: 25px;
+  }
+  .clouds {
+    margin-left: calc(-1800px + 100vw);
+  }
+}
+
+@media (min-width: 1800px) {
+  .clouds {
+    margin-left: 0;
+    width: 100%;
+  }
+}
