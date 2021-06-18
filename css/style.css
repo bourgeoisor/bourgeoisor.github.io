@@ -21,16 +21,16 @@ main {
   flex: 1 0 auto;
 }
 
-p a {
+#resume a {
   color: #d50000;
   font-weight: bold;
 }
 
-p a:hover {
+#resume a:hover {
   color: #a31018;
 }
 
-h1, h3, h4 {
+h1, h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
   color: #2F92D5;
 }
@@ -157,6 +157,10 @@ a.blue-link:hover {
   font-weight: bold;
 }
 
+.text-muted {
+  color: #555555;
+}
+
 .header-name {
   margin-top: 50px !important;
   margin-bottom: 10px !important;
@@ -189,6 +193,13 @@ a.blue-link:hover {
 
 .no-bottom-margin {
   margin-bottom: 0px;
+}
+
+.experience-header {
+  border-bottom: 1px solid #bbbbbb;
+  margin-bottom: 5px;
+  padding-bottom: 7px;
+  margin-top: 20px;
 }
 
 
