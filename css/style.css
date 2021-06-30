@@ -90,6 +90,10 @@ a.blue-link:hover {
   color: #ffffff;
 }
 
+.row {
+  margin-bottom: 50px;
+}
+
 
 
 #chevron {
@@ -249,12 +253,6 @@ a.blue-link:hover {
   }
   #buttons {
     display: none;
-  }
-  #resume .row {
-    border-bottom: 1px solid #d7d7d7;
-  }
-  #resume .row.no-bottom-margin {
-    border-bottom: 0px;
   }
 }
 
