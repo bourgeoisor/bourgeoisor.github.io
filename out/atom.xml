@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Olivier Bourgeois: Cloud and backend software developer</title>
+  <link href="https://olivi-eh.dev/" />
+  <link rel="self" href="https://olivi-eh.dev/atom.xml" />
+  <id>https://olivi-eh.dev/</id>
+  <updated>2024-12-22T00:00:00Z</updated>
+  <author>
+    <name>Olivier Bourgeois</name>
+  </author>
+</feed>
