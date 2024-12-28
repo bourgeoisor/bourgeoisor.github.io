@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Olivier Bourgeois: Cloud and backend software developer</title>
+  <link href="https://olivi-eh.dev/" />
+  <link rel="self" href="https://olivi-eh.dev/atom.xml" />
+  <id>https://olivi-eh.dev/</id>
+  <updated>2024-12-28T00:00:00Z</updated>
+  <author>
+    <name>Olivier Bourgeois</name>
+  </author>
+    <entry>
+      <title>My personal website: A technical deep dive - Olivier Bourgeois</title>
+      <summary>A detailed look into the creation of my personal website, from rendering to styling, and everything in between!</summary>
+      <link rel="alternate" href="https://olivi-eh.dev/my-personal-website/" />
+      <updated>2024-12-24T00:00:00Z</updated>
+      <published>2024-12-24T00:00:00Z</published>
+      <id>https://olivi-eh.dev/my-personal-website/</id>
+    </entry>
+    <entry>
+      <title>Hello world: Building your own corner of the web - Olivier Bourgeois</title>
+      <summary>My personal website is reborn anew! But why a personal website? And how can you also get started building a little corner of the Internet?</summary>
+      <link rel="alternate" href="https://olivi-eh.dev/hello-world/" />
+      <updated>2024-12-24T00:00:00Z</updated>
+      <published>2024-12-23T00:00:00Z</published>
+      <id>https://olivi-eh.dev/hello-world/</id>
+    </entry>
+</feed>

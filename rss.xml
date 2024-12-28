@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olivier Bourgeois: Cloud and backend software developer</title>
+    <link>https://olivi-eh.dev/</link>
+    <description>Cloud and backend software developer based in Canada. Specializes in Golang, Kubernetes, and fostering delightful developer experiences.</description>
+    <language>en-us</language>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://olivi-eh.dev/rss.xml" rel="self" type="application/rss+xml" />
+    <ttl>60</ttl>
+    <item>
+      <title>My personal website: A technical deep dive - Olivier Bourgeois</title>
+      <link>https://olivi-eh.dev/my-personal-website/</link>
+      <description>A detailed look into the creation of my personal website, from rendering to styling, and everything in between!</description>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 EST</pubDate>
+      <guid>https://olivi-eh.dev/my-personal-website/</guid>
+    </item>
+    <item>
+      <title>Hello world: Building your own corner of the web - Olivier Bourgeois</title>
+      <link>https://olivi-eh.dev/hello-world/</link>
+      <description>My personal website is reborn anew! But why a personal website? And how can you also get started building a little corner of the Internet?</description>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 EST</pubDate>
+      <guid>https://olivi-eh.dev/hello-world/</guid>
+    </item>
+  </channel>
+</rss>
